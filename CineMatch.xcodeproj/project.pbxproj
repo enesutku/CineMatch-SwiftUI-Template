@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCAD77132BB643440082DDB7 /* CineMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77122BB643440082DDB7 /* CineMatchApp.swift */; };
+		BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77142BB643440082DDB7 /* ContentView.swift */; };
+		BCAD77172BB643450082DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD77162BB643450082DDB7 /* Assets.xcassets */; };
+		BCAD771A2BB643450082DDB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD77192BB643450082DDB7 /* Preview Assets.xcassets */; };
+		BCAD77252BB6443D0082DDB7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77242BB6443D0082DDB7 /* CardView.swift */; };
+		BCAD77282BB6445C0082DDB7 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */; };
+		BCAD772A2BB6446B0082DDB7 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */; };
+		BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */; };
+		BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77362BB645100082DDB7 /* SizeConstants.swift */; };
+		BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77382BB645720082DDB7 /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCAD770F2BB643440082DDB7 /* CineMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCAD77122BB643440082DDB7 /* CineMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMatchApp.swift; sourceTree = "<group>"; };
+		BCAD77142BB643440082DDB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCAD77162BB643450082DDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCAD77192BB643450082DDB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCAD77242BB6443D0082DDB7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
+		BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionIndView.swift; sourceTree = "<group>"; };
+		BCAD77362BB645100082DDB7 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
+		BCAD77382BB645720082DDB7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCAD770C2BB643440082DDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCAD77062BB643440082DDB7 = {
+			isa = PBXGroup;
+			children = (
+				BCAD77112BB643440082DDB7 /* CineMatch */,
+				BCAD77102BB643440082DDB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCAD77102BB643440082DDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD770F2BB643440082DDB7 /* CineMatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCAD77112BB643440082DDB7 /* CineMatch */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77202BB643DD0082DDB7 /* App */,
+				BCAD77212BB643EF0082DDB7 /* Core */,
+				BCAD77312BB644C30082DDB7 /* Extensions */,
+				BCAD77322BB644EB0082DDB7 /* Shared */,
+				BCAD77332BB644F40082DDB7 /* Utils */,
+				BCAD77142BB643440082DDB7 /* ContentView.swift */,
+				BCAD77162BB643450082DDB7 /* Assets.xcassets */,
+				BCAD77182BB643450082DDB7 /* Preview Content */,
+			);
+			path = CineMatch;
+			sourceTree = "<group>";
+		};
+		BCAD77182BB643450082DDB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77192BB643450082DDB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCAD77202BB643DD0082DDB7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77122BB643440082DDB7 /* CineMatchApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BCAD77212BB643EF0082DDB7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77222BB643F50082DDB7 /* Cards */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BCAD77222BB643F50082DDB7 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77302BB644B90082DDB7 /* TabBar */,
+				BCAD772F2BB644B30082DDB7 /* Search */,
+				BCAD772E2BB644AF0082DDB7 /* Profile */,
+				BCAD772D2BB644A80082DDB7 /* Messagging */,
+				BCAD77232BB643FB0082DDB7 /* Views */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		BCAD77232BB643FB0082DDB7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77242BB6443D0082DDB7 /* CardView.swift */,
+				BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */,
+				BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */,
+				BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCAD772D2BB644A80082DDB7 /* Messagging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messagging;
+			sourceTree = "<group>";
+		};
+		BCAD772E2BB644AF0082DDB7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BCAD772F2BB644B30082DDB7 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		BCAD77302BB644B90082DDB7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77382BB645720082DDB7 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BCAD77312BB644C30082DDB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BCAD77322BB644EB0082DDB7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		BCAD77332BB644F40082DDB7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77342BB644FB0082DDB7 /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BCAD77342BB644FB0082DDB7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BCAD77362BB645100082DDB7 /* SizeConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCAD770E2BB643440082DDB7 /* CineMatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCAD771D2BB643450082DDB7 /* Build configuration list for PBXNativeTarget "CineMatch" */;
+			buildPhases = (
+				BCAD770B2BB643440082DDB7 /* Sources */,
+				BCAD770C2BB643440082DDB7 /* Frameworks */,
+				BCAD770D2BB643440082DDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CineMatch;
+			productName = CineMatch;
+			productReference = BCAD770F2BB643440082DDB7 /* CineMatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCAD77072BB643440082DDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					BCAD770E2BB643440082DDB7 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = BCAD770A2BB643440082DDB7 /* Build configuration list for PBXProject "CineMatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCAD77062BB643440082DDB7;
+			productRefGroup = BCAD77102BB643440082DDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCAD770E2BB643440082DDB7 /* CineMatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCAD770D2BB643440082DDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD771A2BB643450082DDB7 /* Preview Assets.xcassets in Resources */,
+				BCAD77172BB643450082DDB7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCAD770B2BB643440082DDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCAD77282BB6445C0082DDB7 /* ImageScrollingOverlay.swift in Sources */,
+				BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */,
+				BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */,
+				BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */,
+				BCAD77252BB6443D0082DDB7 /* CardView.swift in Sources */,
+				BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */,
+				BCAD77132BB643440082DDB7 /* CineMatchApp.swift in Sources */,
+				BCAD772A2BB6446B0082DDB7 /* MovieInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCAD771B2BB643450082DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCAD771C2BB643450082DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCAD771E2BB643450082DDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CineMatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWGJZG35F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.enes.CineMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCAD771F2BB643450082DDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CineMatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PWGJZG35F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.enes.CineMatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCAD770A2BB643440082DDB7 /* Build configuration list for PBXProject "CineMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAD771B2BB643450082DDB7 /* Debug */,
+				BCAD771C2BB643450082DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCAD771D2BB643450082DDB7 /* Build configuration list for PBXNativeTarget "CineMatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCAD771E2BB643450082DDB7 /* Debug */,
+				BCAD771F2BB643450082DDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCAD77072BB643440082DDB7 /* Project object */;
+}
