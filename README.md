@@ -1,5 +1,7 @@
 # CineMatch SwiftUI Template
 
+## The project is not completed yet, I will continue to develop it in the coming days.
+ 
 Welcome to the SwiftUI Movie App Template! This template provides a simplified yet powerful foundation for building a movie discovery app similar to Tinder. With a sleek and intuitive user interface, users can swipe through movie options effortlessly, making movie selection an enjoyable experience.
 
 ## Features
