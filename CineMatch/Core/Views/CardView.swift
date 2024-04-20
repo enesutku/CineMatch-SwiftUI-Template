@@ -11,14 +11,23 @@ struct CardView: View {
     
     @State private var xOffset: CGFloat = 0
     @State private var degree: Double = 0
+    @State private var currentImageIndex = 0
+    
+    @State private var sameMovieImages = [
+        "avengers",
+        "avengers2",
+        "avengers3"
+    ]
     
     var body: some View {
         ZStack(alignment: .bottom) {
             ZStack(alignment: .top) {
-                Image(.avengers)
+                Image(sameMovieImages[currentImageIndex])
                     .resizable()
-                .scaledToFill()
-                
+                    .scaledToFill()
+                    .overlay{
+                        ImageScrollOverlay(currentImageIndex: $currentImageIndex, ImageCount: sameMovieImages.count)
+                    }
                 SwiftActionIndView(xOffset: $xOffset)
             }
             MovieInfoView()

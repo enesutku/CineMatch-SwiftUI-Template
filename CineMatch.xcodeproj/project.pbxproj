@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC97906B2BD3DE620056D879 /* ImageScrollOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97906A2BD3DE620056D879 /* ImageScrollOverlay.swift */; };
 		BCAD77132BB643440082DDB7 /* CineMatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77122BB643440082DDB7 /* CineMatchApp.swift */; };
 		BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77142BB643440082DDB7 /* ContentView.swift */; };
 		BCAD77172BB643450082DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD77162BB643450082DDB7 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC97906A2BD3DE620056D879 /* ImageScrollOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollOverlay.swift; sourceTree = "<group>"; };
 		BCAD770F2BB643440082DDB7 /* CineMatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CineMatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCAD77122BB643440082DDB7 /* CineMatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CineMatchApp.swift; sourceTree = "<group>"; };
 		BCAD77142BB643440082DDB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		BCAD77212BB643EF0082DDB7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				BCAD77232BB643FB0082DDB7 /* Views */,
 				BCAD77222BB643F50082DDB7 /* Cards */,
 			);
 			path = Core;
@@ -106,7 +109,6 @@
 				BCAD772F2BB644B30082DDB7 /* Search */,
 				BCAD772E2BB644AF0082DDB7 /* Profile */,
 				BCAD772D2BB644A80082DDB7 /* Messagging */,
-				BCAD77232BB643FB0082DDB7 /* Views */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 				BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */,
 				BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */,
 				BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */,
+				BC97906A2BD3DE620056D879 /* ImageScrollOverlay.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */,
 				BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */,
 				BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */,
+				BC97906B2BD3DE620056D879 /* ImageScrollOverlay.swift in Sources */,
 				BCAD77252BB6443D0082DDB7 /* CardView.swift in Sources */,
 				BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */,
 				BCAD77132BB643440082DDB7 /* CineMatchApp.swift in Sources */,
