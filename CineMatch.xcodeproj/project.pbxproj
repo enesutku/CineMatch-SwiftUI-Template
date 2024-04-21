@@ -13,7 +13,6 @@
 		BCAD77172BB643450082DDB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD77162BB643450082DDB7 /* Assets.xcassets */; };
 		BCAD771A2BB643450082DDB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCAD77192BB643450082DDB7 /* Preview Assets.xcassets */; };
 		BCAD77252BB6443D0082DDB7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77242BB6443D0082DDB7 /* CardView.swift */; };
-		BCAD77282BB6445C0082DDB7 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */; };
 		BCAD772A2BB6446B0082DDB7 /* MovieInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */; };
 		BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */; };
 		BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77362BB645100082DDB7 /* SizeConstants.swift */; };
@@ -28,7 +27,6 @@
 		BCAD77162BB643450082DDB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCAD77192BB643450082DDB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCAD77242BB6443D0082DDB7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoView.swift; sourceTree = "<group>"; };
 		BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionIndView.swift; sourceTree = "<group>"; };
 		BCAD77362BB645100082DDB7 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				BCAD77242BB6443D0082DDB7 /* CardView.swift */,
-				BCAD77272BB6445C0082DDB7 /* ImageScrollingOverlay.swift */,
 				BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */,
 				BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */,
 				BC97906A2BD3DE620056D879 /* ImageScrollOverlay.swift */,
@@ -254,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCAD77282BB6445C0082DDB7 /* ImageScrollingOverlay.swift in Sources */,
 				BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */,
 				BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */,
 				BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */,
