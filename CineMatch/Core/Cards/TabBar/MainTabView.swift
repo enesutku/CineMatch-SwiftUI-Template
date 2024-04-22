@@ -14,15 +14,15 @@ struct MainTabView: View {
                 .tabItem { Image(systemName: "flame") }
                 .tag(0)
             
-            Text("Search View")
+            SearchView()
                 .tabItem { Image(systemName: "magnifyingglass") }
                 .tag(1)
             
-            Text("Inbox View")
-                .tabItem { Image(systemName: "bubble") }
+            NotificationsView()
+                .tabItem { Image(systemName: "bell") }
                 .tag(2)
             
-            Text("Profile View")
+            ProfileView()
                 .tabItem { Image(systemName: "person") }
                 .tag(3)
         }
