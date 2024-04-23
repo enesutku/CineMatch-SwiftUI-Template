@@ -19,28 +19,19 @@ struct NotificationsView: View {
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .font(.system(.subheadline, weight: .medium).width(.expanded))
                                 .foregroundColor(.pink)
+                                .padding(.bottom)
                             VStack(spacing: 7) {
                                 ForEach(0..<10) { _ in
                                     HStack(spacing: 10) {
-                                        Image(systemName: "popcorn")
-                                            .renderingMode(.original)
-                                            .resizable()
-                                            .aspectRatio(contentMode: .fit)
-                                            .frame(width: 70, height: 70)
-                                            .clipped()
-                                            .mask { RoundedRectangle(cornerRadius: 8, style: .continuous) }
                                         VStack(alignment: .leading) {
                                             Text("Movie Name")
                                                 .font(.system(size: 16, weight: .medium, design: .default))
                                             Text("August 8th")
                                                 .font(.footnote)
                                                 .foregroundColor(.secondary)
-                                        }
+                                        } .frame(height: 60)
                                         .font(.subheadline)
                                         Spacer()
-                                        Image(systemName: "ellipsis")
-                                            .foregroundColor(Color.red)
-                                            .font(.title3)
                                     }
                                     Divider()
                                 }

@@ -12,7 +12,6 @@ struct ProfileView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
                         .clipped()
                 }
-                .ignoresSafeArea(.all)
                 .frame(width: 390, height: 320)
                 .clipped()
                 VStack(alignment: .leading, spacing: 4) {
@@ -69,7 +68,7 @@ struct ProfileView: View {
                     .padding(.vertical, 28)
                 }
             }
-        }
+        }.ignoresSafeArea(.all)
     }
     
     struct ProfileView_Previews: PreviewProvider {
