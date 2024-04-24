@@ -19,13 +19,6 @@ struct ProfileView: View {
                         Text("@exampleuser")
                             .font(.system(size: 29, weight: .semibold, design: .default))
                         Spacer()
-                        HStack(alignment: .firstTextBaseline, spacing: 3) {
-                            Image(systemName: "person.fill")
-                                .symbolRenderingMode(.multicolor)
-                            Text("236 Followers")
-                                .foregroundStyle(.secondary)
-                        }
-                        .font(.system(.subheadline, weight: .medium))
                     }
                     Text("Example User")
                         .font(.system(.callout, weight: .medium))

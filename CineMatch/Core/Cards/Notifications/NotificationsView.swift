@@ -15,7 +15,7 @@ struct NotificationsView: View {
                 
                 VStack(spacing: 40) {
                         VStack {
-                            Text("New".uppercased())
+                            Text("NEW".uppercased())
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .font(.system(.subheadline, weight: .medium).width(.expanded))
                                 .foregroundColor(.pink)
@@ -24,9 +24,9 @@ struct NotificationsView: View {
                                 ForEach(0..<10) { _ in
                                     HStack(spacing: 10) {
                                         VStack(alignment: .leading) {
-                                            Text("Movie Name")
+                                            Text("Notification Title")
                                                 .font(.system(size: 16, weight: .medium, design: .default))
-                                            Text("August 8th")
+                                            Text("Notification description!")
                                                 .font(.footnote)
                                                 .foregroundColor(.secondary)
                                         } .frame(height: 60)
