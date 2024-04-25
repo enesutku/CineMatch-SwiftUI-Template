@@ -15,11 +15,6 @@ struct NotificationsView: View {
                 
                 VStack(spacing: 40) {
                         VStack {
-                            Text("NEW".uppercased())
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .font(.system(.subheadline, weight: .medium).width(.expanded))
-                                .foregroundColor(.pink)
-                                .padding(.bottom)
                             VStack(spacing: 7) {
                                 ForEach(0..<10) { _ in
                                     HStack(spacing: 10) {
