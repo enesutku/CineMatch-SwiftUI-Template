@@ -16,7 +16,7 @@ struct NotificationsView: View {
                 VStack(spacing: 40) {
                         VStack {
                             VStack(spacing: 7) {
-                                ForEach(0..<10) { _ in
+                                ForEach(0..<5) { _ in
                                     HStack(spacing: 10) {
                                         VStack(alignment: .leading) {
                                             Text("Notification Title")
