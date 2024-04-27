@@ -1,9 +1,6 @@
 # CineMatch SwiftUI Template
 
-<img width="1440" alt="Screenshot 2024-04-27 at 22 35 34" src="https://github.com/enesutku/CineMatch-SwiftUI-Template/assets/69853199/5665c8b8-991e-43bc-b513-cee97c08d1eb">
-<img width="1440" alt="Screenshot 20![Uploading Screenshot 2024-04-27 at 22.36.06.png…]()
-24-04-27 at 22 34 40" src="https://github.com/enesutku/CineMatch-SwiftUI-Template/assets/69853199/b5693471-6352-4f7e-9e7d-75d390a85e39">
-
+![CineMatchPreviewGIF](https://github.com/enesutku/CineMatch-SwiftUI-Template/assets/69853199/175d618b-e131-43fa-a567-1e63be95eae0)
 
 Welcome to the SwiftUI Movie App Template! This template provides a simplified yet powerful foundation for building a movie discovery app similar to Tinder. With a sleek and intuitive user interface, users can swipe through movie options effortlessly, making movie selection an enjoyable experience.
 
