@@ -17,6 +17,12 @@
 		BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */; };
 		BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77362BB645100082DDB7 /* SizeConstants.swift */; };
 		BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAD77382BB645720082DDB7 /* MainTabView.swift */; };
+		BCC3B74D2BDCD50D00389C6E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B74C2BDCD50D00389C6E /* User.swift */; };
+		BCC3B7502BDCD5F000389C6E /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B74F2BDCD5F000389C6E /* CardModel.swift */; };
+		BCC3B7522BDCD67800389C6E /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B7512BDCD67800389C6E /* CardsViewModel.swift */; };
+		BCC3B7552BDCD6FC00389C6E /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B7542BDCD6FC00389C6E /* CardService.swift */; };
+		BCC3B7582BDCD82300389C6E /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B7572BDCD82300389C6E /* MockData.swift */; };
+		BCC3B75A2BDCD9FB00389C6E /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC3B7592BDCD9FB00389C6E /* CardStackView.swift */; };
 		BCCC0A142BD70E4600028085 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC0A132BD70E4600028085 /* SearchView.swift */; };
 		BCCC0A162BD7195F00028085 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC0A152BD7195F00028085 /* NotificationsView.swift */; };
 		BCCC0A182BD720BE00028085 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCC0A172BD720BE00028085 /* ProfileView.swift */; };
@@ -34,6 +40,12 @@
 		BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftActionIndView.swift; sourceTree = "<group>"; };
 		BCAD77362BB645100082DDB7 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		BCAD77382BB645720082DDB7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BCC3B74C2BDCD50D00389C6E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BCC3B74F2BDCD5F000389C6E /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		BCC3B7512BDCD67800389C6E /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		BCC3B7542BDCD6FC00389C6E /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		BCC3B7572BDCD82300389C6E /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BCC3B7592BDCD9FB00389C6E /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		BCCC0A132BD70E4600028085 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		BCCC0A152BD7195F00028085 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		BCCC0A172BD720BE00028085 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -109,10 +121,8 @@
 		BCAD77222BB643F50082DDB7 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
-				BCAD77302BB644B90082DDB7 /* TabBar */,
-				BCAD772F2BB644B30082DDB7 /* Search */,
-				BCAD772E2BB644AF0082DDB7 /* Profile */,
-				BCAD772D2BB644A80082DDB7 /* Notifications */,
+				BCC3B7532BDCD6EF00389C6E /* Service */,
+				BCC3B74E2BDCD59700389C6E /* Model */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -120,6 +130,10 @@
 		BCAD77232BB643FB0082DDB7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BCAD77302BB644B90082DDB7 /* TabBar */,
+				BCAD772F2BB644B30082DDB7 /* Search */,
+				BCAD772E2BB644AF0082DDB7 /* Profile */,
+				BCAD772D2BB644A80082DDB7 /* Notifications */,
 				BCCC0A112BD70E0300028085 /* Main */,
 			);
 			path = Views;
@@ -167,6 +181,7 @@
 		BCAD77322BB644EB0082DDB7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BCC3B74A2BDCD4EC00389C6E /* Users */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -174,6 +189,7 @@
 		BCAD77332BB644F40082DDB7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				BCC3B7562BDCD81700389C6E /* MockData */,
 				BCAD77342BB644FB0082DDB7 /* Constants */,
 			);
 			path = Utils;
@@ -187,6 +203,47 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
+		BCC3B74A2BDCD4EC00389C6E /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3B74B2BDCD4FE00389C6E /* Modal */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		BCC3B74B2BDCD4FE00389C6E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3B74C2BDCD50D00389C6E /* User.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		BCC3B74E2BDCD59700389C6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3B74F2BDCD5F000389C6E /* CardModel.swift */,
+				BCC3B7512BDCD67800389C6E /* CardsViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCC3B7532BDCD6EF00389C6E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3B7542BDCD6FC00389C6E /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BCC3B7562BDCD81700389C6E /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				BCC3B7572BDCD82300389C6E /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 		BCCC0A112BD70E0300028085 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +251,7 @@
 				BCAD77292BB6446B0082DDB7 /* MovieInfoView.swift */,
 				BCAD772B2BB644780082DDB7 /* SwiftActionIndView.swift */,
 				BC97906A2BD3DE620056D879 /* ImageScrollOverlay.swift */,
+				BCC3B7592BDCD9FB00389C6E /* CardStackView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -269,14 +327,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCAD77152BB643440082DDB7 /* ContentView.swift in Sources */,
+				BCC3B75A2BDCD9FB00389C6E /* CardStackView.swift in Sources */,
+				BCC3B7552BDCD6FC00389C6E /* CardService.swift in Sources */,
 				BCCC0A162BD7195F00028085 /* NotificationsView.swift in Sources */,
 				BCCC0A142BD70E4600028085 /* SearchView.swift in Sources */,
 				BCAD772C2BB644780082DDB7 /* SwiftActionIndView.swift in Sources */,
 				BCAD77392BB645720082DDB7 /* MainTabView.swift in Sources */,
+				BCC3B7502BDCD5F000389C6E /* CardModel.swift in Sources */,
 				BC97906B2BD3DE620056D879 /* ImageScrollOverlay.swift in Sources */,
 				BCAD77252BB6443D0082DDB7 /* CardView.swift in Sources */,
+				BCC3B7522BDCD67800389C6E /* CardsViewModel.swift in Sources */,
 				BCAD77372BB645100082DDB7 /* SizeConstants.swift in Sources */,
+				BCC3B74D2BDCD50D00389C6E /* User.swift in Sources */,
 				BCAD77132BB643440082DDB7 /* CineMatchApp.swift in Sources */,
+				BCC3B7582BDCD82300389C6E /* MockData.swift in Sources */,
 				BCCC0A182BD720BE00028085 /* ProfileView.swift in Sources */,
 				BCAD772A2BB6446B0082DDB7 /* MovieInfoView.swift in Sources */,
 			);
